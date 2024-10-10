@@ -1,0 +1,291 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="example.zxing"
+4    android:versionCode="411"
+5    android:versionName="4.1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+11-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:5-65
+11-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:22-62
+12    <uses-feature
+12-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-27:36
+13        android:name="android.hardware.camera"
+13-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-47
+14        android:required="false" />
+14-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-33
+15    <uses-feature
+15-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:5-30:36
+16        android:name="android.hardware.camera.front"
+16-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-53
+17        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+17-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-33
+18    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+19    <uses-feature
+19-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:5-35:36
+20        android:name="android.hardware.camera.autofocus"
+20-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-57
+21        android:required="false" />
+21-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-33
+22    <uses-feature
+22-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:5-38:36
+23        android:name="android.hardware.camera.flash"
+23-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-53
+24        android:required="false" />
+24-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-33
+25    <uses-feature
+25-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:5-41:36
+26        android:name="android.hardware.screen.landscape"
+26-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-57
+27        android:required="false" />
+27-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-33
+28    <uses-feature
+28-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:5-44:36
+29        android:name="android.hardware.wifi"
+29-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-45
+30        android:required="false" /> <!-- To store the heap dumps and leak analysis results. -->
+30-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:9-33
+31    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+31-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:23:5-80
+31-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:23:22-77
+32    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+32-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:24:5-81
+32-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:24:22-78
+33    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+33-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:26:5-77
+33-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:26:22-74
+34
+35    <application
+35-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:5:5-50:19
+36        android:name="example.zxing.SampleApplication"
+36-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:6:9-42
+37        android:allowBackup="false"
+37-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:7:9-36
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.6.0] /Users/victor/.gradle/caches/transforms-3/2c28cffc1346de6a33e00a19c46b6b43/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:icon="@drawable/icon"
+40-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:8:9-38
+41        android:label="@string/app_name"
+41-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:9:9-41
+42        android:testOnly="true" >
+43        <activity
+43-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:10:9-19:20
+44            android:name="example.zxing.MainActivity"
+44-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:11:13-41
+45            android:label="@string/app_name"
+45-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:12:13-45
+46            android:theme="@style/AppTheme" >
+46-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:13:13-44
+47            <intent-filter>
+47-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:14:13-18:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:15:17-69
+48-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:15:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:17:17-77
+50-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:17:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="example.zxing.ContinuousCaptureActivity" />
+53-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:20:9-72
+53-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:20:19-60
+54        <activity
+54-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:21:9-26:72
+55            android:name="example.zxing.AnyOrientationCaptureActivity"
+55-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:22:13-58
+56            android:screenOrientation="fullSensor"
+56-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:23:13-51
+57            android:stateNotNeeded="true"
+57-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:24:13-42
+58            android:theme="@style/zxing_CaptureTheme"
+58-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:25:13-54
+59            android:windowSoftInputMode="stateAlwaysHidden" />
+59-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:26:13-60
+60        <activity
+60-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:27:9-33:72
+61            android:name="example.zxing.ToolbarCaptureActivity"
+61-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:28:13-51
+62            android:clearTaskOnLaunch="true"
+62-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:29:13-45
+63            android:screenOrientation="portrait"
+63-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:30:13-49
+64            android:stateNotNeeded="true"
+64-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:31:13-42
+65            android:theme="@style/AppCompatCaptureTheme"
+65-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:32:13-57
+66            android:windowSoftInputMode="stateAlwaysHidden" />
+66-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:33:13-60
+67        <activity
+67-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:34:9-39:72
+68            android:name="example.zxing.CustomScannerActivity"
+68-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:35:13-50
+69            android:screenOrientation="fullSensor"
+69-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:36:13-51
+70            android:stateNotNeeded="true"
+70-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:37:13-42
+71            android:theme="@style/zxing_CaptureTheme"
+71-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:38:13-54
+72            android:windowSoftInputMode="stateAlwaysHidden" />
+72-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:39:13-60
+73        <activity
+73-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:40:9-45:72
+74            android:name="example.zxing.SmallCaptureActivity"
+74-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:41:13-49
+75            android:screenOrientation="fullSensor"
+75-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:42:13-51
+76            android:stateNotNeeded="true"
+76-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:43:13-42
+77            android:theme="@style/zxing_CaptureTheme"
+77-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:44:13-54
+78            android:windowSoftInputMode="stateAlwaysHidden" />
+78-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:45:13-60
+79        <activity
+79-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:46:9-49:79
+80            android:name="example.zxing.TabbedScanning"
+80-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:47:13-43
+81            android:label="@string/title_activity_tabbed_scanning"
+81-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:49:13-67
+82            android:theme="@style/Theme.AppCompat" />
+82-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:48:13-51
+83
+84        <service
+84-->[com.squareup.leakcanary:leakcanary-android:2.7] /Users/victor/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:23:9-25:40
+85            android:name="leakcanary.internal.HeapAnalyzerService"
+85-->[com.squareup.leakcanary:leakcanary-android:2.7] /Users/victor/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:24:13-67
+86            android:exported="false" />
+86-->[com.squareup.leakcanary:leakcanary-android:2.7] /Users/victor/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:25:13-37
+87
+88        <activity
+88-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:47:9-53:63
+89            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+89-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:48:13-74
+90            android:clearTaskOnLaunch="true"
+90-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:49:13-45
+91            android:screenOrientation="sensorLandscape"
+91-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:50:13-56
+92            android:stateNotNeeded="true"
+92-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:51:13-42
+93            android:theme="@style/zxing_CaptureTheme"
+93-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:52:13-54
+94            android:windowSoftInputMode="stateAlwaysHidden" />
+94-->[:zxing-android-embedded] /Users/victor/github/zxing-android-embedded/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:53:13-60
+95        <activity android:name="com.mikepenz.aboutlibraries.ui.LibsActivity" />
+95-->[com.mikepenz:aboutlibraries:6.2.3] /Users/victor/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:12:9-80
+95-->[com.mikepenz:aboutlibraries:6.2.3] /Users/victor/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:12:19-77
+96
+97        <provider
+97-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:29:9-37:20
+98            android:name="leakcanary.internal.LeakCanaryFileProvider"
+98-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:30:13-70
+99            android:authorities="com.squareup.leakcanary.fileprovider.example.zxing"
+99-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:31:13-88
+100            android:exported="false"
+100-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:32:13-37
+101            android:grantUriPermissions="true" >
+101-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:33:13-47
+102            <meta-data
+102-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:34:13-36:66
+103                android:name="android.support.FILE_PROVIDER_PATHS"
+103-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:35:17-67
+104                android:resource="@xml/leak_canary_file_paths" />
+104-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:36:17-63
+105        </provider>
+106
+107        <activity
+107-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:39:9-44:66
+108            android:name="leakcanary.internal.activity.LeakActivity"
+108-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:40:13-69
+109            android:icon="@mipmap/leak_canary_icon"
+109-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:41:13-52
+110            android:label="@string/leak_canary_display_activity_label"
+110-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:42:13-71
+111            android:taskAffinity="com.squareup.leakcanary.example.zxing"
+111-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:43:13-76
+112            android:theme="@style/leak_canary_LeakCanary.Base" />
+112-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:44:13-63
+113
+114        <activity-alias
+114-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:46:9-63:26
+115            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+115-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:47:13-77
+116            android:banner="@drawable/leak_canary_tv_icon"
+116-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:48:13-59
+117            android:enabled="@bool/leak_canary_add_launcher_icon"
+117-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:49:13-66
+118            android:exported="true"
+118-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:50:13-36
+119            android:icon="@mipmap/leak_canary_icon"
+119-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:51:13-52
+120            android:label="@string/leak_canary_display_activity_label"
+120-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:52:13-71
+121            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+121-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:53:13-79
+122            android:taskAffinity="com.squareup.leakcanary.example.zxing"
+122-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:54:13-76
+123            android:theme="@style/leak_canary_LeakCanary.Base" >
+123-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:55:13-63
+124            <intent-filter>
+124-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:56:13-62:29
+125                <action android:name="android.intent.action.MAIN" />
+125-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:15:17-69
+125-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:15:25-66
+126
+127                <category android:name="android.intent.category.LAUNCHER" />
+127-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:17:17-77
+127-->/Users/victor/github/zxing-android-embedded/sample/src/main/AndroidManifest.xml:17:27-74
+128                <!-- Android TV launcher intent -->
+129                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+129-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:61:17-86
+129-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:61:27-83
+130            </intent-filter>
+131        </activity-alias>
+132
+133        <activity
+133-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:65:9-71:68
+134            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+134-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:66:13-80
+135            android:excludeFromRecents="true"
+135-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:67:13-46
+136            android:icon="@mipmap/leak_canary_icon"
+136-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:68:13-52
+137            android:label="@string/leak_canary_storage_permission_activity_label"
+137-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:69:13-82
+138            android:taskAffinity="com.squareup.leakcanary.example.zxing"
+138-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:70:13-76
+139            android:theme="@style/leak_canary_Theme.Transparent" />
+139-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:71:13-65
+140
+141        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+141-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:73:9-77
+141-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/victor/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:73:19-74
+142
+143        <provider
+143-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/victor/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:8:9-12:40
+144            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+144-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/victor/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:9:13-79
+145            android:authorities="example.zxing.leakcanary-installer"
+145-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/victor/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:10:13-72
+146            android:enabled="@bool/leak_canary_watcher_auto_install"
+146-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/victor/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:11:13-69
+147            android:exported="false" />
+147-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/victor/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:12:13-37
+148        <provider
+148-->[com.squareup.leakcanary:plumber-android:2.7] /Users/victor/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:8:9-12:40
+149            android:name="leakcanary.internal.PlumberInstaller"
+149-->[com.squareup.leakcanary:plumber-android:2.7] /Users/victor/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:9:13-64
+150            android:authorities="example.zxing.plumber-installer"
+150-->[com.squareup.leakcanary:plumber-android:2.7] /Users/victor/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:10:13-69
+151            android:enabled="@bool/leak_canary_plumber_auto_install"
+151-->[com.squareup.leakcanary:plumber-android:2.7] /Users/victor/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:11:13-69
+152            android:exported="false" />
+152-->[com.squareup.leakcanary:plumber-android:2.7] /Users/victor/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:12:13-37
+153    </application>
+154
+155</manifest>
