@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
+apply plugin: 'maven-publish'
 
 ext.artifactId = 'zxing-android-embedded'
 
@@ -162,4 +163,17 @@ project.afterEvaluate {
 
 signing {
     sign publishing.publications
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.Victor2018' //groupId 随便取
+                artifactId = 'zxing-android-embedded'  //artifactId 随便取
+                version = '6.0.0'
+            }
+        }
+    }
 }
